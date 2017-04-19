@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--insert-->
+    <string-array name="data_category_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="fitness_data_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="medical_data_type_values">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="body_data_type_values">
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <!--insert-->
+
+
+    <!--settings-->
+    <string-array name="time_to_save_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="time_to_show_values">
+        <item>7</item>
+        <item>29</item>
+    </string-array>
+    <!--settings-->
+
+    <!--user-->
+    <string-array name="gender_values">
+        <item>not_configured</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="blood_type_values">
+        <item>not_configured</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="fitzpatrick_skin_type_values">
+        <item>not_configured</item>
+        <item>type1</item>
+        <item>type2</item>
+        <item>type3</item>
+        <item>type4</item>
+        <item>type5</item>
+        <item>type6</item>
+    </string-array>
+
+    <string-array name="wheelchair_values">
+        <item>not_configured</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <!--user-->
+
+
+</resources>

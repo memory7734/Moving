@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/personal_information">
+
+        <android.support.v7.preference.EditTextPreference
+            android:title="@string/username"
+            android:key="username"/>
+
+        <android.support.v7.preference.ListPreference
+            android:title="@string/sex"
+            android:key="gender"
+            android:entries="@array/gender_opts"
+            android:entryValues="@array/gender_values"
+            android:defaultValue="not_configured"/>
+
+        <android.support.v7.preference.Preference
+            android:title="@string/birthdate"
+            android:key="birthdate"/>
+
+
+        <android.support.v7.preference.EditTextPreference
+            android:title="@string/city"
+            android:key="city"/>
+
+
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/physiological_feature">
+
+        <android.support.v7.preference.ListPreference
+            android:title="@string/blood_type"
+            android:key="blood_type"
+            android:entries="@array/blood_type_opts"
+            android:entryValues="@array/blood_type_values"
+            android:defaultValue="not_configured"/>
+
+        <android.support.v7.preference.ListPreference
+            android:title="@string/fitzpatrick_skin_type"
+            android:key="fitzpatrick_skin_type"
+            android:entries="@array/fitzpatrick_skin_type_opts"
+            android:entryValues="@array/fitzpatrick_skin_type_values"
+            android:defaultValue="not_configured"/>
+
+        <android.support.v7.preference.ListPreference
+            android:title="@string/wheelchair"
+            android:key="wheelchair"
+            android:entries="@array/wheelchair_opts"
+            android:entryValues="@array/wheelchair_values"
+            android:defaultValue="not_configured"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+
+
+</android.support.v7.preference.PreferenceScreen>

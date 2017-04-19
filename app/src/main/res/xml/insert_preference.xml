@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.ListPreference
+        android:title="@string/data_category"
+        android:key="data_category"
+        android:entries="@array/data_category_opts"
+        android:entryValues="@array/data_category_values"
+        android:defaultValue="1"/>
+
+    <android.support.v7.preference.ListPreference
+        android:title="@string/fitness_data_type"
+        android:key="fitness_data_type"
+        android:entries="@array/fitness_data_type_opts"
+        android:entryValues="@array/fitness_data_type_values"
+        android:defaultValue="0"/>
+
+    <android.support.v7.preference.ListPreference
+        android:title="@string/medical_data_type"
+        android:key="medical_data_type"
+        android:entries="@array/medical_data_type_opts"
+        android:entryValues="@array/medical_data_type_values"
+        android:defaultValue="6"/>
+
+    <android.support.v7.preference.ListPreference
+        android:title="@string/body_data_type"
+        android:key="body_data_type"
+        android:entries="@array/body_data_type_opts"
+        android:entryValues="@array/body_data_type_values"
+        android:defaultValue="9"/>
+
+    <android.support.v7.preference.Preference
+        android:title="@string/date_time"
+        android:key="date_time"/>
+
+
+    <android.support.v7.preference.EditTextPreference
+        android:title="@string/value"
+        android:key="value"
+        android:inputType="number"/>
+
+</android.support.v7.preference.PreferenceScreen>

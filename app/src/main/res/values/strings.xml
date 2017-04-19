@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Moving</string>
+    <string name="settings">设置</string>
+    <string name="user">用户信息</string>
+    <string name="insert">插入数据</string>
+
+
+    <!--常用-->
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="sure">确定</string>
+    <string name="of_course">当然！</string>
+    <string name="of_course_not">才不是！</string>
+    <string name="not_configured">未设置</string>
+    <string name="loading">加载中</string>
+    <string name="share_error">分享失败</string>
+
+    <string name="title_activity_read">阅读</string>
+    <string name="title_activity_guokr_read">果壳精选</string>
+    <string name="loaded_failed">加载失败!</string>
+    <string name="retry">重试</string>
+    <string name="no_network_connected">当前没有网络连接…</string>
+    <string name="go_to_set">设置</string>
+    <string name="text_copied">复制成功</string>
+    <string name="text_copied_error">复制失败</string>
+
+    <!--insert_preference_fragment-->
+    <string name="data_category">数据类别</string>
+    <string name="data_type">数据类型</string>
+    <string name="date_time">日期</string>
+    <string name="value">数值</string>
+    <string name="please_input_value">请输入数据</string>
+
+    <string name="fitness_data_type">运动数据</string>
+    <string name="medical_data_type">医疗数据</string>
+    <string name="body_data_type">身体数据</string>
+
+
+    <string name="activity">健身记录</string>
+    <string name="activitie_energy">活动能量</string>
+    <string name="cycling_distance">骑行距离</string>
+    <string name="exercise_mintues">锻炼分钟数</string>
+    <string name="walking_running_distance">步行+跑步距离</string>
+    <string name="step">步数</string>
+
+    <string name="blood_glucose">血糖</string>
+    <string name="forced_vital_vapacity">最大肺活量</string>
+    <string name="blood_alcohol_content">血液酒精浓度</string>
+
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+
+    <!--insert_preference_fragment-->
+
+
+    <!--user-->
+    <string name="personal_information">个人信息</string>
+    <string name="username">用户名</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="city">所在地</string>
+
+    <string name="physiological_feature">生理特征</string>
+    <string name="birthdate">出生日期</string>
+    <string name="blood_type">血型</string>
+    <string name="fitzpatrick_skin_type">日光反应类型</string>
+    <string name="fitzpatrick_skin_type_1">类型Ⅰ</string>
+    <string name="fitzpatrick_skin_type_2">类型Ⅱ</string>
+    <string name="fitzpatrick_skin_type_3">类型Ⅲ</string>
+    <string name="fitzpatrick_skin_type_4">类型Ⅳ</string>
+    <string name="fitzpatrick_skin_type_5">类型Ⅴ</string>
+    <string name="fitzpatrick_skin_type_6">类型Ⅵ</string>
+    <string name="wheelchair">轮椅</string>
+    <!--user-->
+
+
+    <!--settings_preference_fragment-->
+    <string name="account_settings">账户设置</string>
+    <string name="jawbone_up">绑定Jawbone账号</string>
+    <string name="password">修改密码</string>
+    <string name="logout">退出当前账号</string>
+
+    <string name="basic_settings">基本设置</string>
+    <string name="clear_image_cache">清除缓存</string>
+    <string name="clear_image_cache_successfully">清理成功</string>
+    <string name="time_of_saving_articles">文章保存时间</string>
+    <string name="time_of_showing_datas">数据显示时间</string>
+    <string name="_1_day">1 天</string>
+    <string name="_3_day">3 天</string>
+    <string name="_7_day">7 天</string>
+    <string name="_15_day">15 天</string>
+    <string name="_1_week">1 周</string>
+    <string name="_1_month">1 月</string>
+
+
+    <string name="about">关于</string>
+    <string name="version">版本:V1.0</string>
+    <string name="rate">为Moving应用评分</string>
+    <string name="feedback">反馈Bug / 建议</string>
+    <string name="donate">捐赠开发者</string>
+    <string name="donate_content">支付宝账号将会复制到粘贴板，进入支付宝可直接粘贴完成捐赠，感谢您的支持！</string>
+    <string name="donate_account">memory7734@gmail.com</string>
+    <string name="sendto">mailto:memory7734@gmail.com</string>
+    <string name="mail_topic">纸飞机使用反馈与建议</string>
+    <string name="device_model">设备型号:</string>
+    <string name="sdk_version">SDK版本:</string>
+    <string name="no_mail_app">没有找到邮件类App</string>
+    <string name="no_app_store_found">没有市场类App</string>
+    <string name="no_browser_found">没有安装浏览器</string>
+    <string name="author">作者</string>
+    <string name="author_name">Elijah Zhang</string>
+    <string name="author_description">湖北 武汉</string>
+    <string name="follow_me_on_github">在GitHub关注我</string>
+    <string name="follow_me_on_weibo">在微博关注我</string>
+    <string name="weibo_url">http://weibo.com/u/2649767332</string>
+    <string name="support">支持</string>
+    <string name="feedback_description">帮助我改进Moving</string>
+    <string name="coffee">请我喝杯咖啡</string>
+    <string name="coffee_description">如果你认同我的工作，可以请我喝杯咖啡表示支持</string>
+    <string name="github_url">https://github.com/memory7734</string>
+    <string name="rate_description">如果你喜欢Moving,请在商店中给它一个好评吧</string>
+    <string name="open_source_license">开源许可</string>
+    <string name="easter_egg">彩蛋</string>
+    <string name="easter_egg_content">点我名字这么多次， 你一定是喜欢我!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chart_average">平均：</string>
+    <string name="chart_today">今日：</string>
+    <!--setting-->
+
+
+    <string-array name="page_titles">
+        <item>健康提示</item>
+        <item>@string/fitness_data_type</item>
+        <item>@string/medical_data_type</item>
+        <item>@string/body_data_type</item>
+    </string-array>
+</resources>

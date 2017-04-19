@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--insert-->
+    <string-array name="data_category_opts">
+        <item>@string/fitness_data_type</item>
+        <item>@string/medical_data_type</item>
+        <item>@string/body_data_type</item>
+    </string-array>
+
+    <string-array name="fitness_data_type_opts">
+        <item>@string/activity</item>
+        <item>@string/activitie_energy</item>
+        <item>@string/cycling_distance</item>
+        <item>@string/exercise_mintues</item>
+        <item>@string/walking_running_distance</item>
+        <item>@string/step</item>
+    </string-array>
+
+    <string-array name="medical_data_type_opts">
+        <item>@string/blood_glucose</item>
+        <item>@string/forced_vital_vapacity</item>
+        <item>@string/blood_alcohol_content</item>
+    </string-array>
+
+    <string-array name="body_data_type_opts">
+        <item>@string/height</item>
+        <item>@string/weight</item>
+    </string-array>
+    <!--insert-->
+
+
+    <!--settings-->
+    <string-array name="time_to_save_opts">
+        <item>@string/_1_day</item>
+        <item>@string/_3_day</item>
+        <item>@string/_7_day</item>
+        <item>@string/_15_day</item>
+    </string-array>
+
+    <string-array name="time_to_show_opts">
+        <item>@string/_1_week</item>
+        <item>@string/_1_month</item>
+    </string-array>
+    <!--settings-->
+
+    <!--user-->
+    <string-array name="gender_opts">
+        <item>@string/not_configured</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="blood_type_opts">
+        <item>@string/not_configured</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="fitzpatrick_skin_type_opts">
+        <item>@string/not_configured</item>
+        <item>@string/fitzpatrick_skin_type_1</item>
+        <item>@string/fitzpatrick_skin_type_2</item>
+        <item>@string/fitzpatrick_skin_type_3</item>
+        <item>@string/fitzpatrick_skin_type_4</item>
+        <item>@string/fitzpatrick_skin_type_5</item>
+        <item>@string/fitzpatrick_skin_type_6</item>
+    </string-array>
+
+    <string-array name="wheelchair_opts">
+        <item>@string/not_configured</item>
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+    <!--user-->
+
+
+
+</resources>

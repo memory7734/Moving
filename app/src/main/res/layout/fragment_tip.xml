@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="me.memory7734.moving.homepage.TipFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tip_frm"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="#ffffff">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_tip" >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </FrameLayout>
+
+</FrameLayout>
